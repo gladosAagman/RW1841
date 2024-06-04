@@ -1,0 +1,24 @@
+JVM ( Java Virtual Machine )
+***
+After compilation Byte code (.class file) is generated.
+which is  passed to JVM.
+There are some components in JVM.
+                ---------------------------------------------
+                JVM = ClassLoader + Memory + Execution Engine
+                ----------------------------------------------
+
+1. ClassLoader --> used to load the .class file into the memory
+    a. Bootstrap ClassLoader
+    b. Extension ClassLoader
+    c. System/App ClassLoader
+2. Memory
+    a. Class(Method) Area --> used to store the class structure
+    b. Heap Area --> used to store the Object
+    c. Stack Area --> used to store local variable. It is created each time when method is
+    invoked and destroy when method invocation completes.
+    d. Program Counter Register --> stores the address of Jvm instruction being executed.
+    e. Native Method Stack --> contains all native code used in application.
+3. Execution Engine
+        a. Interpreter --> It reads the code line by line.
+        b. JIT  -->  It means Just-in-Time Compiler. It convert byte code into machine code.
+        It improves the Java program performance.

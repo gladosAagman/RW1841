@@ -1,0 +1,6 @@
+JRE ( Java Runtime Environment )
+***
+It contains JVM and class Libraries(java.lang, java.util and java.net classes etc)
+                ---------------------------
+                JRE = JVM + Class Libraries
+                ---------------------------

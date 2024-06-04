@@ -1,0 +1,21 @@
+Basic Steps to execute Java Program
+
+1. First and for most create a file and save it with .java extension.
+2. Then write the java code as shown below.
+
+Test.java
+public class Test {
+    public static void main(String args[] ) {
+        System.out.println("Namaskara Tulunadu");
+    }
+}
+
+3. Compile the Java class  via Java Compiler (javac).
+javac Test.java
+
+4. Now the Byte code has been generated.
+
+5. To execute/run the code.
+java Test
+
+6. When you run above code you get the output.
