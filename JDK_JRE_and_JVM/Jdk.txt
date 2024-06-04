@@ -1,0 +1,6 @@
+JDK ( Java Development Kit )
+***
+It contains JRE, compiler, debugger and other development tools.
+                ----------------------
+                JDK = JRE + Development Tools
+                ----------------------
